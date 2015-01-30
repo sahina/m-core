@@ -1,0 +1,26 @@
+{
+  "name": "material-core",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sahina/material-core",
+  "authors": [
+    "Altug Sahin <altug@aecoffice.com>"
+  ],
+  "description": "CSS library based on Google material design specs",
+  "main": [
+    "dist/material-core.css"
+  ],
+  "keywords": [
+    "Material",
+    "CSS",
+    "SCSS",
+    "SASS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
