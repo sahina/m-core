@@ -2,20 +2,62 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <base href="/">
-  <title></title>
-  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  
+  <title>Test page for css</title>
+  
   <link rel="stylesheet" href="m-core.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <h1>m-core</h1>
+  
+  <h2>shadow.scss</h2>
 
-<h1>m-core</h1>
+  <p>Shodow classes.</p>
+  
+  <section class="sample">
+    <div class="z-0">.z-0</div>
+    <div class="z-1">.z-1</div>
+    <div class="z-2">.z-2</div>
+    <div class="z-3">.z-3</div>
+    <div class="z-4">.z-4</div>
+    <div class="z-5">.z-5</div>
+    <div class="z-6">.z-6</div>
+  </section>
 
-<h2>Comp</h2>
+  <h2>font-roboto.scss</h2>
 
-<!-- <script src="vendor/jquery/dist/jquery.js"></script> -->
+  <p>Sets font family, weight, format, etc...</p>
+
+  <section class="sample">
+    <pre>
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Thin.woff2") format("woff2"), url("../font/roboto/Roboto-Thin.woff") format("woff"), url("../font/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Light.woff2") format("woff2"), url("../font/roboto/Roboto-Light.woff") format("woff"), url("../font/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Regular.woff2") format("woff2"), url("../font/roboto/Roboto-Regular.woff") format("woff"), url("../font/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Medium.woff2") format("woff2"), url("../font/roboto/Roboto-Medium.woff") format("woff"), url("../font/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700; }
+    </pre>
+  </section>
 
 </body>
 </html>
