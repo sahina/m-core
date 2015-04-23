@@ -1,1 +1,2 @@
-# Core Google Material Design Library
+# m-core
+Core material style library
