@@ -3,13 +3,13 @@ var sass = require('gulp-sass');
 
 
 gulp.task('sass', function() {
-  return gulp.src('lib/**/*.scss')
+  return gulp.src('lib/sass/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('dist'));
 });
 
 gulp.task('watch', function() {
-  gulp.watch('lib/**/*.scss', ['sass']);
+  gulp.watch('lib/sass/**/*.scss', ['sass']);
 });
 
 gulp.task('default', ['sass', 'watch']);
