@@ -1,5 +1,5 @@
 {
-  "name": "material-core",
+  "name": "m-core",
   "version": "0.0.0",
   "description": "Core Google Material Style Library",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahina/material-core.git"
+    "url": "https://github.com/sahina/m-core.git"
   },
   "keywords": [
     "css",
@@ -19,9 +19,9 @@
   "author": "Altug Sahin <altug@aecoffice.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sahina/material-core/issues"
+    "url": "https://github.com/sahina/m-core/issues"
   },
-  "homepage": "https://github.com/sahina/material-core",
+  "homepage": "https://github.com/sahina/m-core",
   "devDependencies": {
     "del": "^1.1.1",
     "gulp": "^3.8.10",
