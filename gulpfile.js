@@ -18,31 +18,31 @@ gulp.task('font', function() {
     .pipe(gulp.dest('dist/font'));
 });
 
-gulp.task('sass', function() {
-  return gulp.src('lib/sass/**/*.scss')
+gulp.task('scss', function() {
+  return gulp.src('lib/scss/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('dist'));
 });
 
 gulp.task('test', function(cb) {
   runSequence(
-    ['clean'], ['font', 'sass', 'test-html', 'watch-test'],
+    ['clean'], ['font', 'scss', 'test-html', 'watch-test'],
     cb
   );
 });
 
 gulp.task('watch', function() {
-  gulp.watch('lib/sass/**/*.scss', ['sass']);
+  gulp.watch('lib/scss/**/*.scss', ['scss']);
 });
 
 gulp.task('watch-test', function() {
-  gulp.watch('lib/sass/**/*.scss', ['sass']);
+  gulp.watch('lib/scss/**/*.scss', ['scss']);
   gulp.watch(['test/**'], ['test-html']);
 });
 
 gulp.task('build', function(cb) {
   runSequence(
-    ['clean'], ['clean', 'font', 'sass', 'watch'],
+    ['clean'], ['clean', 'font', 'scss', 'watch'],
     cb
   );
 });
