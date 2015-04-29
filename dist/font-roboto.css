@@ -1,37 +1,3 @@
-<!doctype html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  
-  <title>Test page for m-core</title>
-  
-  <link rel="stylesheet" href="m-core.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>m-core</h1>
-  
-  <h2>shadow.scss</h2>
-
-  <p>Shodow classes.</p>
-  
-  <section class="sample">
-    <div class="z-0">.z-0</div>
-    <div class="z-1">.z-1</div>
-    <div class="z-2">.z-2</div>
-    <div class="z-3">.z-3</div>
-    <div class="z-4">.z-4</div>
-    <div class="z-5">.z-5</div>
-    <div class="z-6">.z-6</div>
-  </section>
-
-  <h2>font-roboto.scss</h2>
-
-  <p>Sets font family, weight, format, etc...</p>
-
-  <section class="sample">
-    <pre>
 @font-face {
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Thin.woff2") format("woff2"), url("../font/roboto/Roboto-Thin.woff") format("woff"), url("../font/roboto/Roboto-Thin.ttf") format("truetype");
@@ -56,8 +22,3 @@
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700; }
-    </pre>
-  </section>
-
-</body>
-</html>

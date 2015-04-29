@@ -42,9 +42,10 @@ gulp.task('watch-test', function() {
 
 gulp.task('build', function(cb) {
   runSequence(
-    ['clean'], ['font', 'scss', 'watch'],
+    ['clean'], ['font', 'scss'],
     cb
   );
 });
 
 gulp.task('default', ['build']);
+gulp.task('serve', ['build', 'watch']);
